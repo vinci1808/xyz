@@ -1,0 +1,49 @@
+ modemp
+
+ Timestamp is 597edace (Mon Jul 31 12:52:54 2017)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000008eH .text                   CODE
+ 0002:00000000 00001d2eH RCLID_TEXT              CODE
+ 0003:00000000 0000001cH .idata$5                DATA
+ 0003:00000020 00000010H .rdata                  DATA
+ 0003:00000030 00000028H .idata$2                DATA
+ 0003:00000058 00000014H .idata$3                DATA
+ 0003:0000006c 0000001cH .idata$4                DATA
+ 0003:00000088 00000092H .idata$6                DATA
+ 0003:0000011a 00000000H .edata                  DATA
+ 0004:00000000 00000104H .data                   DATA
+ 0004:00000104 00000000H .bss                    DATA
+ 0005:00000000 00000030H RCLEP_DATA$XIA          DATA
+ 0005:00000030 00000014H RCLEP_DATA$XIB          DATA
+ 0005:00000044 00000004H RCLEP_DATA$XIC          DATA
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0001:00000000       _MODEMP                    00401000     MODEMP.OBJ
+ 0001:00000050       __RealiaCOBOLexeentry      00401050     carclw60:rappiw32.obj
+ 0001:00000070       _CARC__EnterInstance       00401070 f   carclw60:carclw60.dll
+ 0001:00000076       _CARC__ExitInstance        00401076 f   carclw60:carclw60.dll
+ 0001:0000007c       _CARC__PCodeInterpreter    0040107c f   carclw60:carciw60.dll
+ 0001:00000082       _CARC__ApplicationMain@8   00401082 f   carclw60:carclw60.dll
+ 0001:00000088       _CARE__ExitProcess         00401088 f   carclw60:carclw60.dll
+ 0003:00000000       __imp__CARC__PCodeInterpreter 00404000     carclw60:carciw60.dll
+ 0003:00000004       \177carciw60_NULL_THUNK_DATA 00404004     carclw60:carciw60.dll
+ 0003:00000008       __imp__CARC__ApplicationMain@8 00404008     carclw60:carclw60.dll
+ 0003:0000000c       __imp__CARE__ExitProcess   0040400c     carclw60:carclw60.dll
+ 0003:00000010       __imp__CARC__ExitInstance  00404010     carclw60:carclw60.dll
+ 0003:00000014       __imp__CARC__EnterInstance 00404014     carclw60:carclw60.dll
+ 0003:00000018       \177carclw60_NULL_THUNK_DATA 00404018     carclw60:carclw60.dll
+ 0003:00000020       _CARC__RunUnitName         00404020     carclw60:rrupname.obj
+ 0003:0000002c       _CARC__ProtectLoggedFiles  0040402c     carclw60:rfalways.obj
+ 0003:00000030       __IMPORT_DESCRIPTOR_carclw60 00404030     carclw60:carclw60.dll
+ 0003:00000044       __IMPORT_DESCRIPTOR_carciw60 00404044     carclw60:carciw60.dll
+ 0003:00000058       __NULL_IMPORT_DESCRIPTOR   00404058     carclw60:carclw60.dll
+ 0005:00000000       _CARC__CobolModuleData     00406000     carclw60:rrupi386.obj
+
+ entry point at        0001:00000050
+
+ Static symbols
+

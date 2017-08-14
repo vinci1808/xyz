@@ -1,0 +1,36 @@
+CA-Realia COBOL Version 6.1.0002 D:\MPT2\MODEMP.CBL					31JUL17 13:52:04  PAGE	  1
+
+
+
+			Realia COBOL Compiler Version Information
+
+			      Pass 1	 Version 6.152
+			      Pass 1a	 Version 6.100
+			      Pass 2	 Version 6.167
+			      Pass 2a	 Version 6.102
+			      Pass 3	 Version 6.133
+			      Pass 4	 Version 6.107
+			      Pass 5	 Version 6.105
+
+
+			Compilation Directives in Effect
+
+COMP-4		  AS:2		    NODATA	      DCHK
+OPT		  NOCALL	    SUBCHK	      STRCHK
+ANSITRUNC	  NOSMALLCOMP	    NODCALL	      DIVZERO
+NOEPDCALL	  APOST 	    ASCII	      STATABORT
+NOMOVELINK	  NOBLL4K	    ARGCHK	      UPLOW
+NOVERARG	  MDY		    LP:   60	      NOPP
+FCREATE 	  IEEE		    NOLILIAN	      CURRENCY-SIGN=$
+WRITEBEFORE	  SOSI		    NOCOPY68	      NOIBMODO
+NOFLAG-COM	  NOFLAG-SEG	    NOFLAG-FIPS       DEBUGXREF
+DIALECT-REALIA6
+
+			Error level limit: W
+
+			Source lines compiled:	     193
+			Compilation time (mm:ss.ss):  0:00.03
+			Compilation speed (lines/minute):  386000
+
+			Compilation date (yy/mm/dd): 17/07/31
+			     Time of day (hh:mm:ss): 13:52:04

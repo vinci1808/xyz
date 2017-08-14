@@ -1,0 +1,39 @@
+-----------------------------------------------------------------------------
+ Advantage CA-Realia II Workbench -- Start Compile Task
+    Source File: D:\MPT2\modemp.cbl
+   Options File: C:\Program Files (x86)\CA\AdvantageCARealia\DEFAULT.OPT
+    Working Dir: D:\MPT2\ 
+-----------------------------------------------------------------------------
+=========== Start List of Compile Response File ============ 
+ "D:\MPT2\modemp.cbl"
+ "D:\MPT2\modemp.OBJ"
+ "D:\MPT2\modemp.LST"
+=========== End List of Compile Response File ============== 
+Advantage CA-Realia COBOL Compiler Version 6.1.0002
+Copyright 2002 Computer Associates International, Inc.
+
+ Compile of D:\MPT2\modemp.cbl Successful
+-----------------------------------------------------------------------------
+-----------------------------------------------------------------------------
+ Advantage CA-Realia II Workbench -- Start Link as EXE Task
+    Source File: D:\MPT2\modemp.cbl
+    Working Dir: D:\MPT2\ 
+-----------------------------------------------------------------------------
+=========== Delete target file if it exists ============= 
+
+===========  Link Response File =============== 
+/NOCOBOL
+/EXE:"D:\MPT2\MODEMP.EXE"
+"modemp.obj" 
+/main:"modemp" 
+===========  End of Response File ============= 
+============ Begin Link Step ================  
+COBL @"D:\MPT2\modemp.RSP" 
+Advantage CA-Realia COBL Batch Processor Version 6.1.0002
+Copyright 2002 Computer Associates International, Inc.
+
+CA-Realia LINK Batch Processor
+d:\mpt2\modemp.exe
+link completed. Files generated: 1 ErrorLevel: 0
+ Link of D:\MPT2\modemp.cbl Successful
+-----------------------------------------------------------------------------
